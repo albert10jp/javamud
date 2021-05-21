@@ -53,9 +53,9 @@ class LabMain {
 		for(int assassinMaxHP = MINHP; assassinMaxHP < MAXHP; assassinMaxHP+=MINHP){
 			Util.pln("assassinMaxHP: " + assassinMaxHP);
 			for(int assassinAttack = MINATTACK; assassinAttack < MAXHP; assassinAttack+=MINHP){
-				for(int assassinDefense = 1; assassinDefense < MAXHP; assassinDefense+=MINHP){
+				for(int assassinDefense = MINDEFENSE; assassinDefense < MAXHP; assassinDefense+=MINHP){
 					Util.pln("assassinDefense: " + assassinDefense);
-					for(int warriorMaxHP = 5; warriorMaxHP < MAXHP; warriorMaxHP+=MINHP){
+					for(int warriorMaxHP = MINHP; warriorMaxHP < MAXHP; warriorMaxHP+=MINHP){
 						Util.pln("warriorMaxHP: " + warriorMaxHP);
 						for(int warriorAttack = MINATTACK; warriorAttack < MAXHP; warriorAttack+=MINHP){
 							Util.pln( "assassinAttack: " + assassinAttack +
