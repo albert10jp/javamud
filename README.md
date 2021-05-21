@@ -1,2 +1,2 @@
 # javamud
-Java Text RPG, multi-user dungeon, MUD, textRPG, text-based Role-Playing Game
+A simple text-based RPG written in Java, single user temporarily, multi-user in the near future.
